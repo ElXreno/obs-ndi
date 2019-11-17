@@ -10,9 +10,9 @@ Source0:        https://github.com/Palakis/obs-ndi/archive/%{version}.tar.gz
 ExclusiveArch:  i686 x86_64
 
 BuildRequires:  gcc-c++
+BuildRequires:  obs-studio-devel
 BuildRequires:  cmake3
 BuildRequires:  cmake(Qt5Core)
-BuildRequires:  pkgconfig(libobs)
 
 Requires:       obs-studio
 Requires:       libndi
